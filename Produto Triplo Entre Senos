@@ -1,0 +1,19 @@
+# Redefinindo a função após a reinicialização do estado
+
+def produto_triplo(sen1, sen2, sen3):
+    """
+    Calcula o produto triplo de três valores, onde:
+    Produto triplo = sen1 * sen2 * sen3
+
+    Parâmetros:
+    - sen1: primeiro valor do seno
+    - sen2: segundo valor do seno
+    - sen3: terceiro valor do seno
+
+    Retorna:
+    - Produto triplo dos valores
+    """
+    return sen1 * sen2 * sen3
+
+# Exemplo de uso
+produto_triplo(0.5, 0.6, 0.7)
